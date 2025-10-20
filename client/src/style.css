@@ -1,0 +1,103 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 2rem;
+    color: #333;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  form {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  #postsContainer {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .post {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+  }
+
+  .post h2 {
+    margin-top: 0;
+  }
+
+  .post button {
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .commentsContainer {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+  }
+
+  .commentsContainer ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .commentsContainer li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .createCommentForm {
+    margin-top: 1rem;
+  }
+
+  .commentInput {
+    width: 70%;
+    padding: 0.4rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .createCommentForm button {
+    padding: 0.4rem 1rem;
+  }
+
+
